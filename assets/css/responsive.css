@@ -1,0 +1,231 @@
+@media only screen and (max-width: 1140px){
+  .banner{
+    height: 600px;
+    width: 600px;
+  }
+  .banner .content h1{
+    font-size: 60px;
+  }
+  .banner .content h3{
+    font-size: 20px;
+  }
+  .banner .dots{
+    width: 600px;
+    height: 260px;
+    left: 10px;
+    
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 14px;
+    padding: .5rem 15px;
+  }
+  .portfolio .portfolio-filter-btn-inner button{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding:15px 0;
+  }
+  a, p{
+    font-size: 14px;
+  }
+  .education .left-side .left-side-inner{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+  }
+  .education .left-side .left-side-inner::after{
+    height: 160px;
+  }
+  .education .left-side .timeAndPlace h3{
+    font-size: 16px;
+  }
+  .education .left-side .timeAndPlace i{
+    font-size: 12px;
+  }
+  .education .contant:last-child{
+    margin-bottom: 30px;
+  }
+  .contact-box .contact-box-inner{
+    width: 650px;
+  }
+  .contact-box .contactAndForm .right-side .form-group .form-control{
+    font-size: 14px;
+  }
+  .contact-box .contactAndForm .right-side button{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .personal-details .right-side p a{
+    display: inherit;
+  }
+  .personal-details .right-side p:last-child{
+    display: none;
+  }
+  .content-col-left-inner{
+    width: 100%;
+  }
+  h4{
+    font-size: 16px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  p, a{
+    font-size: 12px;
+  }
+  .section-header h2{
+    font-size: 35px;
+  }
+  .section-header h5{
+    font-size: 12px;
+  }
+  .section-header .watermark{
+    font-size: 55px;
+    top: 17.5px;
+  }
+  .portfolio .portfolio-filter-btn-inner button{
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .contact-box .contact-box-inner{
+    width: 500px;
+  }
+  .banner{
+    height: 400px;
+    width: 400px;
+  }
+  .banner .content h1{
+    font-size: 40px;
+  }
+  .banner .content h3{
+    font-size: 15px;
+  }
+  .banner .dots{
+    width: 400px;
+    height: 200px;
+    left: 10px;
+  }
+}
+@media only screen and (max-width: 575px){
+  h4{
+    font-size: 14px;
+  }
+  h5{
+    font-size: 12px;
+  }
+  .content-col-left i{
+    font-size: 12px;
+  }
+  .personal-details .left-side-inner::after{
+    display: none;
+  }
+  .personal-details .left-side img{
+    margin: 0 auto;
+    display: block;
+  }
+  .personal-details .right-side{
+    text-align: center;
+  }
+  .personal-details .right-side h4{
+    margin-bottom: 15px;
+  }
+  .personal-details .right-side p{
+    margin-bottom: 10px;
+  }
+  .personal-details .right-side p a{
+    display: none;
+  }
+  .personal-details .right-side p:last-child{
+    display: inherit;
+  }
+  .skill .bottom-side{
+    padding: 0 30px;
+  }
+  .contact .map{
+    visibility: hidden;
+  }
+  .contact-box .contact-box-inner{
+    width: 80%;
+  }
+  .hidden-in-mobile{
+    display: none
+  }
+  .hidden-in-pc{
+    display: inherit !important;
+  }
+  .content-col-right::after, .content-col-left::after{
+    display: none;
+  }
+  .content-col-left-inner{
+    text-align: center;
+  }
+  .content-col-left a{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .content-col-left-inner{
+    padding: 0;
+    padding-top: 30px;
+  }
+  .banner{
+    height: 290px;
+    width: 290px;
+  }
+  .banner .dots{
+    width: 290px;
+    height: 160px;
+    left: 5px;
+  }
+  .section-header h2{
+    font-size: 30px;
+  }
+  .section-header .watermark{
+   display: none;
+  }
+  .section-header h5{
+    font-size: 10px;
+  }
+  .padding70{
+    padding: 50px 0;
+  }
+  .section-header{
+    margin-bottom: 30px;
+  }
+  .experience{
+    padding-bottom: 0px;
+  }
+  #experience .section-wrapper .download, .portfolio .more-item{
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  .education .contant:first-child{
+    margin-top: 50px;
+  }
+  .education .left-side .left-side-inner{
+    margin-top: 20px;
+  }
+  #reference .item .details h4{
+    font-size: 25px;
+  }
+  .portfolio .portfolio-filter-btn-inner button{
+    margin-bottom: 10px;
+  }
+  .portfolio-item .border3{
+    display: none;
+  }
+  .portfolio .grid-item{
+    text-align: center;
+  }
+  .skill-progress-bar{
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 390px){
+  .education .left-side .left-side-inner::after{
+    width: 180px;
+  }
+}
